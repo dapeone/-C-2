@@ -1,0 +1,22 @@
+static void Main()
+    {
+      int taskNumber, exponent;
+      double baseNumber = 0, valueOfX = 0;
+
+      Console.Write("Введите номер задания: ");
+      taskNumber = Convert.ToInt32(Console.ReadLine());
+
+      if (taskNumber == 1)
+      {
+        int FirstTask((int)baseNumber, exponent);
+      }
+      else if (taskNumber == 2)
+      {
+        SecondTask(valueOfX);
+      }
+      else
+      {
+        Console.Error.WriteLine("Неверный номер задания. Введите 1 или 2");
+      }
+    }
+}
